@@ -1,0 +1,164 @@
+div.container {
+    background-color: #006666;
+    width: 100%;
+}
+
+header {
+    padding: 1em;
+    color: white;
+}
+
+.row-custom{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.para{
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    background-color: #204060;
+}
+
+.content{
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    background-color: #2d5986;
+}
+
+.postbtn{
+    margin-top:20px;
+    background-color: #8cb3d9;
+    width: 30%;
+}
+/*.postbtn:hover {
+    color:#ffffff;
+    text-decoration: none;
+    background-color: #19334d
+}*/
+
+.btn:hover {
+    color:#ffffff;
+    text-decoration: none;
+    background-color: #808080
+}
+
+.btn{
+    margin-top:20px;
+    background-color: #999999;
+    padding: 15px;
+}
+
+body{
+    background-image: url("../images/pic.jpg");
+    background-size:100% 100vh;
+    background-repeat: no-repeat;
+}
+
+.ap{
+    color:white;
+    margin-bottom:0px;
+    margin-top:0;
+    padding:10Px;
+}
+
+.row{
+    margin:0px;
+    padding:0px;
+}
+
+
+
+.relative{
+    padding:0px;
+    margin-top:5%;
+    border-radius:2px;
+    height:400px;
+    align: center;
+}
+
+a:link {
+    text-decoration:  none;
+    color: silver;
+}
+
+a:visited {
+    color: silver;
+}
+
+a:hover {
+    color: #d9d9d9;
+}
+
+a:active {
+    color: silver;
+}
+p{
+    color:silver;
+}
+
+.h3color,.h5color{
+    color:silver;
+}
+input[type='text'],input[type='email'],input[type='password'],input[type='submit'],input[type='file'],textarea,button[type='button'] {
+    width: 70%;
+    margin-bottom: 0px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+}
+
+.modal fade{
+    width: 600px;
+}
+
+
+
+.dropbtn {
+    background-color: #006666;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    background-color: #004d4d;
+    color: silver;
+    padding: 12px 18px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #008080;
+    color:silver;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #006666;
+}
